@@ -1,12 +1,12 @@
 {
-  "name": "insight-bitcore",
+  "name": "insight-bitcore-aicoin",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.2.5",
   "author": {
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "https://github.com/ai-coin/insight.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -28,25 +28,29 @@
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
     }
+    {
+      "name": "Stephen L. Reed",
+      "email": "stephenreed@yahoo.com"
+    }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/ai-coin/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/ai-coin/insight",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
+    "aicoin",
     "bitcore",
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-aicoin-api"
   },
   "dependencies": {
-    "insight-bitcore-api": ">0.2.10"
+    "insight-bitcore-aicoin-api": ">0.2.10"
   },
   "devDependencies": {
     "bower": "~1.2.8",
