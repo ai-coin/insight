@@ -27,7 +27,7 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
-    }
+    },
     {
       "name": "Stephen L. Reed",
       "email": "stephenreed@yahoo.com"
@@ -50,7 +50,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-aicoin-api"
   },
   "dependencies": {
-    "insight-bitcore-aicoin-api": ">0.2.10"
+    "insight-bitcore-aicoin-api": "https://github.com/ai-coin/insight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
