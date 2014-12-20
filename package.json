@@ -50,7 +50,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-aicoin-api"
   },
   "dependencies": {
-    "insight-bitcore-aicoin-api": "https://github.com/ai-coin/insight-api.git"
+    "insight-bitcore-aicoin-api": "git://github.com/ai-coin/insight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
