@@ -1,5 +1,5 @@
 {
-  "name": "insight-bitcore-aicoin",
+  "name": "insight-bitcore",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.2.5",
   "author": {
@@ -47,10 +47,10 @@
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-aicoin-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
-    "insight-bitcore-aicoin-api": "git://github.com/ai-coin/insight-api.git"
+    "insight-bitcore-api": "git://github.com/ai-coin/insight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
