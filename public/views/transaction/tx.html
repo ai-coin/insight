@@ -204,7 +204,7 @@
   <div class="col-xs-6 col-sm-8 col-md-8 text-right">
     <span data-ng-show="tx.confirmations" class="txvalues
       txvalues-success">{{tx.confirmations}} <span translate>Confirmations</span></span>
-    <span data-ng-show="!tx.confirmations" class="txvalues txvalues-danger" translate>Unconfirmed Transaction!</span>
+    <span data-ng-show="!tx.confirmations" class="txvalues txvalues-success" translate>Network Memory Pool</span>
     <span class="txvalues txvalues-primary">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' XAI' }}</span>
   </div>
 </div>

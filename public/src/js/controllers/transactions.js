@@ -20,18 +20,17 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
     var u = 0;
 
     for(var i=0; i < l; i++) {
-
       var notAddr = false;
       // non standard input
       if (items[i].scriptSig && !items[i].addr) {
-        items[i].addr = 'Unparsed address [' + u++ + ']';
+        items[i].addr = 'Unparsed input address [' + u++ + ']';
         items[i].notAddr = true;
         notAddr = true;
       }
 
       // non standard output
       if (items[i].scriptPubKey && !items[i].scriptPubKey.addresses) {
-        items[i].scriptPubKey.addresses = ['Unparsed address [' + u++ + ']'];
+        items[i].scriptPubKey.addresses = ['Unparsed output address [' + u++ + ']'];
         items[i].notAddr = true;
         notAddr = true;
       }
