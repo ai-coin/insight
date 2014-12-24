@@ -21,6 +21,7 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
 
     for(var i=0; i < l; i++) {
       var notAddr = false;
+
       // non standard input
       if (items[i].scriptSig && !items[i].addr) {
         items[i].addr = 'Unparsed input address [' + u++ + ']';
